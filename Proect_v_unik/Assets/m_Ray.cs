@@ -21,11 +21,12 @@ public class m_Ray : MonoBehaviour
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if (Coll.Raycast(ray, out hit,Mathf.Infinity)) 
+        if (Coll.Raycast(ray, out hit, Mathf.Infinity))
         {
-        
-           m_Material.color = Red.color;
-            
+
+            m_Material.color = Red.color;
+   
+
         }
         else m_Material.color = Blue.color;
     }
