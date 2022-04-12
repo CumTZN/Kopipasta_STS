@@ -13,7 +13,7 @@ public class Mouse : MonoBehaviour{
     }
 
     private void OnMouseOver(){
-        m_Material.color=Red.color;
+        m_Material.color = Red.color;
     }
 
     private void OnMouseExit(){ 
